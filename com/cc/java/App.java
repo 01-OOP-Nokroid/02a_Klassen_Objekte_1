@@ -15,9 +15,11 @@ public class App {
         cat.age = 35;
 
         // Ausgabe
-        System.out.println(cat.tellYourName());
-        System.out.println(cat.tellYourFur());
-        System.out.println(cat.tellYourAge());
+        // System.out.println(cat.tellYourName());
+        // System.out.println(cat.tellYourFur());
+        // System.out.println(cat.tellYourAge());
+
+        output("hi");
 
         System.out.println("------------");
 
@@ -30,12 +32,14 @@ public class App {
         cat2.age = 29;
 
         // Ausgabe
-        System.out.println(cat2.name);
-        System.out.println(cat2.furColor);
-        System.out.println(cat2.age);
+        // System.out.println(cat2.name);
+        // System.out.println(cat2.furColor);
+        // System.out.println(cat2.age);
     }
 
-   
-
+   // statische Methode --- in Klasse
+    public static void output(String outpuString){
+        System.out.println(outpuString);
+    }
 }
 

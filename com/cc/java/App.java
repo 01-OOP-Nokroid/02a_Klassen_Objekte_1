@@ -6,7 +6,7 @@ public class App {
     {
         // Objekt ensteht...
         Cat cat = new Cat(); // Instanzierung
-        System.out.println(cat);
+        output("Adresse des Objektes: " + cat);
 
 
         // Wertzuweisung

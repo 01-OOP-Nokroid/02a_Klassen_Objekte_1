@@ -1,12 +1,17 @@
 package com.cc.java;
 
-public class Cat {
+public class Cat 
+{
 
+    String name;
+    String furColor;
+    int age;
 
-    public void sayHello()
+    public void tellYourName()
     {
-        System.out.println("hello");   
+        System.out.println(this.name);
     }
+
 
     void tellYourAddress()
     {

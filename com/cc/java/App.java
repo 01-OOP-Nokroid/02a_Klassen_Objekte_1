@@ -7,13 +7,32 @@ public class App {
         // Objekt ensteht...
         Cat cat = new Cat(); // Instanzierung
         System.out.println(cat);
-        cat.tellYourAddress();
+
+
+        // Wertzuweisung
+        cat.name = "Alonzo";
+        cat.furColor = "grey";
+        cat.age = 35;
+
+        // Ausgabe
+        System.out.println(cat.name);
+        System.out.println(cat.furColor);
+        System.out.println(cat.age);
 
         System.out.println("------------");
 
         Cat cat2 = new Cat();
         System.out.println(cat2);
-        cat2.tellYourAddress();
+
+        // Wertzuweisung
+        cat2.name = "Gizabella";
+        cat2.furColor = "White";
+        cat2.age = 29;
+
+        // Ausgabe
+        System.out.println(cat2.name);
+        System.out.println(cat2.furColor);
+        System.out.println(cat2.age);
     }
 
    

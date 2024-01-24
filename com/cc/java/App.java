@@ -15,11 +15,17 @@ public class App {
         cat.age = 35;
 
         // Ausgabe
+        output(cat.tellYourName());
+        output(cat.tellYourFur());
+        output(String.valueOf(cat.tellYourAge())); // int ---> String
+
+
+
         // System.out.println(cat.tellYourName());
         // System.out.println(cat.tellYourFur());
         // System.out.println(cat.tellYourAge());
 
-        output("hi");
+        // output("hi");
 
         System.out.println("------------");
 
@@ -32,6 +38,12 @@ public class App {
         cat2.age = 29;
 
         // Ausgabe
+        output(cat2.tellYourName());
+        output(cat2.tellYourFur());
+        output(Integer.toString(cat2.tellYourAge()));
+
+
+
         // System.out.println(cat2.name);
         // System.out.println(cat2.furColor);
         // System.out.println(cat2.age);

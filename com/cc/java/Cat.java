@@ -49,4 +49,9 @@ public class Cat
     }
 
 
+    private boolean getPermission()
+    {
+        return true;
+    }
+    
 }

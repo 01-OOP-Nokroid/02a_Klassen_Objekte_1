@@ -3,9 +3,9 @@ package com.cc.java;
 public class Cat 
 {
 
-    String name;
-    String furColor;
-    int age;
+    private String name;
+    private String furColor;
+    private int age;
 
 
     public Cat(String name, String furColor, int age)
@@ -15,18 +15,38 @@ public class Cat
         this.age = age;
     }
 
-    public String tellYourName()
+    public String getName()
     {
-        return this.name;
+        if (getPermission())
+        {
+            return name;
+        } 
+        else 
+        {
+            return "Sorry<3, no permission!";
+        }
+        
     }
 
-    public String tellYourFur()
+    public void setName(String name)
     {
-        return this.furColor;
+        this.name = name;
     }
 
-    public int tellYourAge()
+    public String getFurColor()
     {
-        return this.age;
+        return furColor;
     }
+
+    public int getAge()
+    {
+        return age;
+    }
+
+    public void setAge(int age)
+    {
+        this.age = age;
+    }
+
+
 }

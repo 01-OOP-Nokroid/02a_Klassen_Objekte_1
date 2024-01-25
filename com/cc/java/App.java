@@ -5,8 +5,7 @@ public class App {
     public static void main(String[] args)
     {
         // Objekt ensteht...
-        Cat cat = new Cat(); // Instanzierung
-        output("Adresse des Objektes: " + cat);
+        Cat cat = new Cat("Alonzo","grey", 35); // Instanzierung
 
 
         // Wertzuweisung
@@ -29,7 +28,7 @@ public class App {
 
         System.out.println("------------");
 
-        Cat cat2 = new Cat();
+        Cat cat2 = new Cat("Grizabelle","White", 29);
         System.out.println(cat2);
 
         // Wertzuweisung

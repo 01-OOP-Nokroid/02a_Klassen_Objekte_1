@@ -1,9 +1,9 @@
 package com.cc.java;
 
-public class Cat 
+public class Cat // public im Klassendiegramm ein "+"
 {
 
-    private String name;
+    private String name; // privat ---> im Klassendiagramm ein "-"
     private String furColor;
     private int age;
 
@@ -48,10 +48,9 @@ public class Cat
         this.age = age;
     }
 
-
     private boolean getPermission()
     {
         return true;
     }
-    
+
 }

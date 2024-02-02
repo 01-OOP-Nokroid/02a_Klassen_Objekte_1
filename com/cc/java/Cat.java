@@ -1,6 +1,6 @@
 package com.cc.java;
 
-public class Cat // public im Klassendiegramm ein "+"
+public class Cat // public im Klassendiegramm ein "+".
 {
 
     private String name; // privat ---> im Klassendiagramm ein "-"
